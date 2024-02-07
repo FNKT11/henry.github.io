@@ -7,24 +7,8 @@
 <link rel="stylesheet" type="text/css" href="Assets/css/reset.css"/>
 <script type="text/javascript" src="Assets/js/jquery-1.8.3.min.js"></script>
 <script type="text/javascript" src="Assets/js/js_z.js"></script>
-<script type="text/javascript" src="Assets/js/banner.js"></script>
 <link rel="stylesheet" type="text/css" href="Assets/css/thems.css">
 <link rel="stylesheet" type="text/css" href="Assets/css/responsive.css">
-<script language="javascript">
-$(function(){
-	$('#owl-demo').owlCarousel({
-		items: 1,
-		navigation: true,
-		navigationText: ["上一个","下一个"],
-		autoPlay: true,
-		stopOnHover: true
-	}).hover(function(){
-		$('.owl-buttons').show();
-	}, function(){
-		$('.owl-buttons').hide();
-	});
-});
-</script>
 </head>
 
 <body>
@@ -35,9 +19,9 @@ $(function(){
         <div class="nav_m">
             <div class="n_icon">导航栏</div>
             <ul class="nav clearfix">
-                <li class="now"><a href="index.html">首页</a></li>
+                <li><a href="index.html">首页</a></li>
                 <li><a href="about.html">关于安行</a></li>
-                <li><a href="product.html">产品与方案</a></li>
+                <li class="now"><a href="product.html">产品与方案</a></li>
                 <li><a href="case.html">项目案例</a></li>
                 <li><a href="join.html">渠道招商</a></li>
                 <li><a href="contact.html">联系我们</a></li>
@@ -47,65 +31,33 @@ $(function(){
 </div>
 <!--头部-->
 <!--幻灯片-->
-<div id="banner" class="banner"> 
-    <div id="owl-demo" class="owl-carousel"> 
-        <a class="item" target="_blank" href="" style="background-image:url(Assets/upload/banner.jpg)">
-            <img src="Assets/upload/banner.jpg" alt="">
-        </a>
-        <a class="item" target="_blank" href="" style="background-image:url(Assets/upload/banner.jpg)">
-            <img src="Assets/upload/banner.jpg" alt="">
-        </a>
-        <a class="item" target="_blank" href="" style="background-image:url(Assets/upload/banner.jpg)">
-            <img src="Assets/upload/banner.jpg" alt="">
-        </a>
-    </div>
+<div class="banner banner_s">
+	<img src="Assets/upload/banner_b.jpg" alt=""/>
 </div>
 <!--幻灯片-->
 <div class="space_hx">&nbsp;</div>
-<div class="i_line"><em>&nbsp;</em></div>
-<div class="space_hx">&nbsp;</div>
-<ul class="i_ma clearfix">
-	<li>
-    	<a href="">
-        	<img src="Assets/upload/pic1.jpg" alt=""/>
-        </a>
-        <div class="title">
-        	<a href=""><em>01.</em>安行飞控</a>
-        </div>
-        <div class="des">深圳市安行飞控科技有限公司是由飞行极客、航测专家、GIS等专业人士组建，核心成员......</div>
-        <div class="more"><a href="">MORE</a></div>
-    </li>
-    <li>
-    	<a href="">
-        	<img src="Assets/upload/pic2.jpg" alt=""/>
-        </a>
-        <div class="title">
-        	<a href=""><em>02.</em>企业文化</a>
-        </div>
-        <div class="des">深圳市安行飞控科技有限公司是由飞行极客、航测专家、GIS等专业人士组建，核心成员......</div>
-        <div class="more"><a href="">MORE</a></div>
-    </li>
-    <li>
-    	<a href="">
-        	<img src="Assets/upload/pic3.jpg" alt=""/>
-        </a>
-        <div class="title">
-        	<a href=""><em>03.</em>工作方案</a>
-        </div>
-        <div class="des">深圳市安行飞控科技有限公司是由飞行极客、航测专家、GIS等专业人士组建，核心成员......</div>
-        <div class="more"><a href="">MORE</a></div>
-    </li>
-    <li>
-    	<a href="">
-        	<img src="Assets/upload/pic4.jpg" alt=""/>
-        </a>
-        <div class="title">
-        	<a href=""><em>04.</em>产品中心</a>
-        </div>
-        <div class="des">深圳市安行飞控科技有限公司是由飞行极客、航测专家、GIS等专业人士组建，核心成员......</div>
-        <div class="more"><a href="">MORE</a></div>
-    </li>
-</ul>
+<div class="scd scd_a clearfix">
+	<div class="pro">
+    	<dl class="clearfix">
+        	<dt><a href=""><img src="Assets/upload/pic7.jpg" alt=""/></a></dt>
+            <dd>
+            	<div class="name"><a href="">无人机型号：虎蝠</a></div>
+                <div class="des">替代传统的地面控制点技术，安行无人机通过整合RTK定位技术和精密测时技术来确定每一张航拍相片的精确位置。</div>
+                <div class="more"><a href="">查看详情</a></div>
+                <div class="time"><span>2015/12/10</span></div>
+            </dd>
+        </dl>
+        <dl class="clearfix">
+        	<dt><a href=""><img src="Assets/upload/pic7.jpg" alt=""/></a></dt>
+            <dd>
+            	<div class="name"><a href="">无人机型号：虎蝠</a></div>
+                <div class="des">替代传统的地面控制点技术，安行无人机通过整合RTK定位技术和精密测时技术来确定每一张航拍相片的精确位置。</div>
+                <div class="more"><a href="">查看详情</a></div>
+                <div class="time"><span>2015/12/10</span></div>
+            </dd>
+        </dl>
+    </div>
+</div>
 <div class="space_hx">&nbsp;</div>
 <div class="bg_a">
 	<ul class="f_nav clearfix">
